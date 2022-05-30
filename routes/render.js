@@ -11,7 +11,7 @@ router.get('/getJS', function(req, res, next) {
 
 /* GET image. */
 router.get('/get-image', function(req, res, next) {
-  let data = "https://adserver-image.s3.ap-south-1.amazonaws.com/image/logo_header.png";
+  let data = "https://i.postimg.cc/3wbMCy02/250x250.png";
  
   res.send({status:"OK",data}); 
 });
